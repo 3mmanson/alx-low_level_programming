@@ -2,7 +2,7 @@
 
 /**
  * main - print alphabet in lower case.
- *
+ * Description: You can only use "_putchar" twice
  * Return: On success Nothing.
  */
 
