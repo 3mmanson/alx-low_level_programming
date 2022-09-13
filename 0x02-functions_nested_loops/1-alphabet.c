@@ -3,11 +3,9 @@
 /**
  * main - print alphabet in lower case.
  *
- * Description: Prototype -void print_alphabet(void).
+ * print_alphabet(void) - only use "_putchar" twice.
  *
- * You can only use "_putchar" twice.
- *
- * Return: On success Nothing.
+ * Return: 0.
  */
 
 
