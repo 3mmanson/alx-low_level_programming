@@ -8,17 +8,17 @@
 
 void times_table(void)
 {
-	long int i, j;
+	int i, j;
 
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			int ret = i * j;
+			int mul = i * j;
 
-			if (ret <= 9)
+			if (mul <= 9)
 			{
-				_putchar(ret + '0');
+				_putchar(mul + '0');
 				if (j < 9)
 				{
 					_putchar(',');
@@ -28,8 +28,8 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar((ret / 10) + '0');
-				_putchar((ret % 10) + '0');
+				_putchar((mul / 10) + '0');
+				_putchar((mul % 10) + '0');
 				if (j < 9)
 				{
 					_putchar(',');
