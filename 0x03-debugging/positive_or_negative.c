@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - positive_or_negative. Print if a random number
+ * positive_or_negative -  Print if a random number
  * is positive, negative or zero
  * Return: Always 0 (Success)
  */
