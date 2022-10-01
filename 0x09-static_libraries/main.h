@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #ifndef _MAIN_H_
 #define _MAIN_H_
+=======
+#ifndef _HOLBERTON_H_
+#define _HOLBERTON_H_
+>>>>>>> e28327e (Multi-push)
 
 int _putchar(char c);
 int _islower(int c);
@@ -22,4 +27,8 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
+<<<<<<< HEAD
 #endif
+=======
+#endif /* _HOLBERTON_H_ */
+>>>>>>> e28327e (Multi-push)
